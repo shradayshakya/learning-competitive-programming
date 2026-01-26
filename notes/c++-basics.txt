@@ -1,0 +1,65 @@
+C ++ basics
+
+Input / Output
+* #include<iostream> => Header for stream
+* Use #include <bin/stdc++.h> to import all libraries (not recommended for production)
+
+Namespace
+	* using namespace std
+	* istead of std::cout, you'll just write cout 
+
+Output/Input
+	* cout => standard output stream
+	* endl => end of the line (\n)
+	* cin => standard input stream ( space or \n)
+	* getLine => standard input stream that gets a line
+
+Insertion Operator ( << ) 
+	* inserts data in the output stream 
+	* chaining multiple insertion operators together 
+
+Extraction Operator ( >> )
+	* takes dat afrom the input stream
+	* chaining multiple extraction variables (separated by white space)
+
+Basic data types 
+	* char
+	* int (if decimal number is assigned then the decimal points are truncated)
+	* float 
+	* double
+	* bool 
+		* (output is either 1 or 0)
+		* everything except 0 is truncated
+	* long int (long)
+	* long long int (long long)
+
+Arithmetic Operators
+	* +
+	* -
+	* *
+	* /
+	* %
+	* ++variable
+	* variable++
+	* --variable
+	* variable--
+	* variable+2 (applies for - * /)
+
+Relational Operatos
+	* ==
+	* !=
+	* >
+	* <
+	* >=
+	* <=
+
+Character
+* char types 
+* ASCI value is stored
+* '' => characters
+* "" => string
+
+
+
+
+
