@@ -23,15 +23,18 @@ Extraction Operator ( >> )
 	* chaining multiple extraction variables (separated by white space)
 
 Basic data types 
-	* char
-	* int (if decimal number is assigned then the decimal points are truncated)
-	* float 
-	* double
+	* char (1 byte)
+	* short (2 byte)
+	* int (if decimal number is assigned then the decimal points are truncated) (4)
+	* float (4 bytes)
+	* double (8 bytes)
+	* long double (12 or 16 bytes)
 	* bool 
 		* (output is either 1 or 0)
 		* everything except 0 is truncated
-	* long int (long)
-	* long long int (long long)
+		* 1 byte
+	* long int (long) (4 or 8 bytes)
+	* long long int (long long) (8 bytes)
 
 Arithmetic Operators
 	* +
@@ -59,7 +62,29 @@ Character
 * '' => characters
 * "" => string
 
+Calculation Order
+* Type of the result is determined by the higher data type
+	double
+	float
+	long long int 
+	long int
+	int
+	char
+
+Operator Precedence
+* https://en.cppreference.com/w/cpp/language/operator_precedence.html
 
 
+Data Type 
+ -10^9 < int < 10^9
+ -10^12 < long int < 10^12
+ -10^18 < long long int < 10^18
 
+Overflow
+* INT_MAX + 1 would be negative
+* a * 1LL * b
 
+Precision Errors
+* Double and Float has precision errors
+* 1e24 => 999..98
+* Number isn't accurate
