@@ -1,0 +1,23 @@
+# 1. Ignore EVERYTHING by default
+*
+
+# 2. But keep all directories (so Git can look inside folders)
+!*/
+
+# 3. Allow Source Code files
+!*.cpp
+!*.c
+!*.h
+!*.hpp
+!Makefile
+
+# 4. Allow Config files
+!.gitignore
+!README.md
+!.vscode/
+
+# 5. Allow Input/Output text files
+!*.in
+!*.txt
+# (Be careful allowing *.out, as a.out is a binary. 
+#  If you use .out for text results, rename them to .ans or .res)
