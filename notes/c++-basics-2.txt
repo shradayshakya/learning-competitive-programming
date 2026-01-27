@@ -1,0 +1,39 @@
+Conditional Statements
+* Relational Operators 
+	== 
+	!=
+* Multiple Statements
+	&&
+	||
+* IF conditions
+	if (condiion) {
+		...
+	} 
+	else if (condition) {
+
+	} else {
+		...
+	}	
+
+* Scopes
+	{ } => Creates new scope
+	global variables => outside the main method
+
+* Loops
+	while loop 
+		while (condition) {
+
+		}
+
+	for loop
+		for (initialization; conditions; operations) {
+
+		}
+
+* Jump Statements
+	break;
+		last for loop
+	continue;
+		last for loop
+
+	21:52
