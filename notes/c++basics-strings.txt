@@ -1,0 +1,6 @@
+ Strings
+ 	* collection of characters
+ 	* double quotes
+ 	* concatination => str + st2
+ 	* equal => str == str2
+ 	4:00
