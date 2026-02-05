@@ -3,4 +3,14 @@
  	* double quotes
  	* concatination => str + st2
  	* equal => str == str2
- 	4:00
+ 	* get character at => srr[0]
+ 	* assign character => str[0] = 'a';
+ 	* length() or size()
+
+Getting multiple strings in input
+* Method 1 => cin >> str1 >> st2
+	What if there are multiple spaces
+* Method 2 => getline(cin, str1)
+	* getline after cin would parse empty string because cin does not parse the new line
+		to avoid this cin.ignore()
+	14:21
