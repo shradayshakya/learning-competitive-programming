@@ -13,4 +13,7 @@ Getting multiple strings in input
 * Method 2 => getline(cin, str1)
 	* getline after cin would parse empty string because cin does not parse the new line
 		to avoid this cin.ignore()
+
+Using string.push_back instead of contination
+
 	14:21
