@@ -14,6 +14,10 @@ Getting multiple strings in input
 	* getline after cin would parse empty string because cin does not parse the new line
 		to avoid this cin.ignore()
 
-Using string.push_back instead of contination
+Using string.push_back instead of concatination
+* push_back => O(1)
+* concatination => O(n.size())
 
-	14:21
+Take numbers greater than 10^16 input as strings and compute in ascii
+
+string.substr(0, 5);

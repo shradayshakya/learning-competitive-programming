@@ -11,12 +11,20 @@ int main() {
 	// getline(cin, numberInLines);
 	// cout << numberInLines << endl;
 
-	int t;
-	cin >> t;
-	cin.ignore();
-	while (t--) {
-		string line;
-		getline(cin, line);
-		cout << line << endl;
-	}
+	// int t;
+	// cin >> t;
+	// cin.ignore();
+	// while (t--) {
+	// 	string line;
+	// 	getline(cin, line);
+	// 	cout << line << endl;
+	// }
+
+	string text = "12345";
+	int lastDigit = text[text.size() - 1] - '0';
+	lastDigit += 4;
+
+	string updated = text.substr(0, text.size() - 1) + to_string(lastDigit);
+
+	cout << updated;
 }
