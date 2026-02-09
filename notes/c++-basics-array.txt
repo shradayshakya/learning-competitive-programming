@@ -1,0 +1,25 @@
+Arrays
+- collection of datatype
+- Index < Size 
+- Array out of bound => Segmentation fault 
+	Works in some machine and doesn't work in some
+
+Donot use char array, instead use string
+
+Single Dimension
+	- int a[5]
+
+Multi Dimension
+	- int a[5][6] - 2D
+	- int a[5][6][7] - 3D
+	- int a[5][6][7]..[n] - ND
+Array Size Limit
+	- Local Array
+		Limit => 10 ^ 5
+		Segmentation fault
+	- Global Array
+		should be constant;
+		Limit => 10 ^ 7
+		
+
+
