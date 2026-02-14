@@ -45,6 +45,24 @@ int main() {
 			}
 		}
 
+		if (is_symmetric && (N % 2) != 0) {
+
+			for (int x = 0; x < mid; x ++) {
+				int mirror_x = last_index - x;
+				if (logo[x][mid] != logo[mirror_x][mid]){		
+					is_symmetric = false;
+					break;
+				}
+			}
+			for (int y = 0; y < mid; y ++) {
+				int mirror_y = last_index - y;
+				if (logo[mid][y] != logo[mid][mirror_y]){				
+					is_symmetric = false;
+					break;
+				}
+			}
+		}
+
 		if (is_symmetric) {
 			cout << "YES" << endl;
 		} else {
