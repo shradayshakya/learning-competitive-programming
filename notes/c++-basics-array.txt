@@ -17,9 +17,10 @@ Array Size Limit
 	- Local Array
 		Limit => 10 ^ 5
 		Segmentation fault
+			this is because stack has aroud 8 MB of size
 	- Global Array
 		should be constant;
 		Limit => 10 ^ 7
+			Data segment has more size
 		
-
 

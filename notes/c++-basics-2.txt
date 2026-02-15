@@ -35,3 +35,19 @@ Conditional Statements
 		last for loop
 	continue;
 		last for loop
+
+* Memory Structure
+	Kernal Space (Code cannot access this)
+	Stack
+		local variables
+		around 
+	Memory Segment
+		File mappings 
+		Anonymous segments
+	Heap
+	BSS Segment
+		Uninitialized static variables
+	Data Segment
+		Static variables initiatized by the programmer
+	Text Segment
+		Binary image of the process
