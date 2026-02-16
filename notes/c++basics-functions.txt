@@ -1,0 +1,29 @@
+Functions
+	Definition
+		Return type
+		Function Name
+		Parameters
+	Purpose 
+		Code Reuse
+
+main
+	return 0 is successful
+		Before there was compilation error
+		Newer compilers doesn't required return 0
+	return 1 is failed
+
+
+Pointers and References
+	By default the copy of the variable is passed (Pass by value)
+	Use references 
+		void increment(int &n){
+			...	
+		}
+
+In built functions
+	swap(a, b)
+	max(a, b)
+
+15:20
+
+
