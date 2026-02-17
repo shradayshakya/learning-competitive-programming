@@ -23,7 +23,15 @@ Pointers and References
 In built functions
 	swap(a, b)
 	max(a, b)
+	min
 
-15:20
+Only arrays pass by reference
+	not possible to change what an array reference refers to after it has been initialized
 
+Multidimentional arrays require array size to be4 passed
+
+
+
+
+21:40
 
