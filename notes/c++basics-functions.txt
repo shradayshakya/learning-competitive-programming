@@ -30,8 +30,5 @@ Only arrays pass by reference
 
 Multidimentional arrays require array size to be4 passed
 
-
-
-
-21:40
+Competetive programming => declare array globally
 

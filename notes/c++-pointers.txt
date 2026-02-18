@@ -1,0 +1,16 @@
+Pointers
+* Memo allocation
+* Arrays and pointers
+* Double pointers
+* Passing pointer in Functions
+
+
+Memory allocations
+* Each byte has address
+* Printing address => Hexadecimal number
+	* a variable would have multiple bytes, so would technically have multiple address
+	* however the address of a variable is the address of the first byte   
+	* Getting address
+		=> &varible_name
+4:21	
+
