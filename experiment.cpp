@@ -2,16 +2,27 @@
 
 using namespace std;
 
-void change_array(int a[]) {
-	a[0] = a[0] + 1;
-}
-
 int main() {
-	int a[10];
-	a[0] = 55;
-	change_array(a);
+	// int a;
+	// cin >> a;
 
-	cout << a[0];
+	// cout << a << endl;
+	// cout << &a << endl;
 
+	int a;
+	int *p_a;
+
+	p_a = &a;
+	a = 5;
+
+	cout << p_a << endl;
+	cout << *p_a << endl;
+
+	*p_a = 6;
+
+	
+	cout << p_a << endl;
+	cout << *p_a << endl;
+	
 }
 

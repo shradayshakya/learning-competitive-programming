@@ -12,5 +12,13 @@ Memory allocations
 	* however the address of a variable is the address of the first byte   
 	* Getting address
 		=> &varible_name
-4:21	
 
+Pointers
+* Storing the address of the variable
+	int x;
+	int *p_x;
+	p_x = &x;
+	value at => *
+
+Arrays Pointers
+	* 8:11
