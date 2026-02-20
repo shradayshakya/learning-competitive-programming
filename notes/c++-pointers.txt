@@ -21,4 +21,10 @@ Pointers
 	value at => *
 
 Arrays Pointers
-	* 8:11
+	* memory allocation is continuous
+	* the variable itself is a pointer
+
+Double Pointer
+* stores the address of a pointer
+
+14:13
