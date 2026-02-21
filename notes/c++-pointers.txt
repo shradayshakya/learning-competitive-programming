@@ -27,4 +27,4 @@ Arrays Pointers
 Double Pointer
 * stores the address of a pointer
 
-14:13
+Passing pointer in the function
