@@ -51,7 +51,7 @@ You are initially at the origin of a 2D surface. You can move by the following r
 
 One move is counted as a vertex to an adjacent vertex. You cannot jump, and can only move to an adjacent vertex. For example, if you are at point A(x,y) , then you may move to any of the points  B, C, D, E (defined below),
 
-59:30
+59:00
                    A(x,y)  to  B(x,y-1) or C(x,y+1) or D(x+1,y) or E(x-1,y)
 
  
