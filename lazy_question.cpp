@@ -34,7 +34,6 @@ int main () {
 	}
 
 	for (int i = current_match; i >= 0; i -= step_number) {
-
 		cout << i << ' ';
 	}
 }
