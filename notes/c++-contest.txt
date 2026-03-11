@@ -122,4 +122,4 @@ Output: 30 15 0
 
 Note: u can try compiling and testing for other valid test cases so as to understand the problem. the "expected correct answer" will show up.
 
-59:28
+1:14:32H
