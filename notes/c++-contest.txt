@@ -156,4 +156,4 @@ Source Limit:
 Explanation
 For each line find the binomial coeffients and print the values with required spaces between them.
 
-1:15:50
+1:32:58
