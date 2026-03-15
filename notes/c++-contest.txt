@@ -181,5 +181,3 @@ Output Format:
 
 0 or 1 in a single line 
 
-
-1:32:58
