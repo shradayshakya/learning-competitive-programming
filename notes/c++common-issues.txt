@@ -1,0 +1,18 @@
+Verdicts
+* Success
+* Compilation Errors
+* Memory Limit Exceeded Error
+	If program > mentioned memory Limit
+* Run time exception
+	Illegal access of memory (Segmentation Fault: Array out of bound)
+	Accessing null pointers
+	Undefined behaviour (Divide by 0)
+* Time Limit Exception (TLE)
+	If program > mentioned time Limit
+	Does not including the compilation time, not the execution time 
+	Time complexity (Estimates the TLE)
+* Recursion Errors
+	Runtime Error (Example: Stack overflow: Segmentation Fault)
+
+Compilation + Execution Time
+* <bits/stdc++.h> increases the execution time, doesn't not affect the execution time
