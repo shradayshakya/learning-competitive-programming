@@ -1,0 +1,18 @@
+Time Complexity
+* Estimation of time taken
+
+
+Iterations
+	* Number of constant time operations
+		Example: O(3)
+Calculation
+	Take the higher value 
+		O(5) + O(3 * n) = O(n)
+		O(N) + O(N) = O(N)
+		O(K X N) = O(N) (if K is insignificant compared to N)
+		O(3) - O(4) = O(1)
+	Online programming Website
+		10^7 iterations = 1 seconds
+		10^8 iterations = 10 seconds
+		10^9 iterations = 100 seconds
+10:14
