@@ -15,4 +15,4 @@ Calculation
 		10^7 iterations = 1 seconds
 		10^8 iterations = 10 seconds
 		10^9 iterations = 100 seconds
-10:14
+11:52
