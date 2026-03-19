@@ -11,8 +11,9 @@ Calculation
 		O(N) + O(N) = O(N)
 		O(K X N) = O(N) (if K is insignificant compared to N)
 		O(3) - O(4) = O(1)
+		O(1) + O(1) + O(log(n)) = O(log(n))
 	Online programming Website
 		10^7 iterations = 1 seconds
 		10^8 iterations = 10 seconds
 		10^9 iterations = 100 seconds
-11:52
+15:03
