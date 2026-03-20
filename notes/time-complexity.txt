@@ -16,4 +16,12 @@ Calculation
 		10^7 iterations = 1 seconds
 		10^8 iterations = 10 seconds
 		10^9 iterations = 100 seconds
-15:03
+	log(log(n) is better that O(n)
+
+0 + 1 + 2 + 3 + ... + n 
+= n(n + 1) / 2
+= O(n^2/2 + n/2)  
+= O(n^2/2) + O(n/2)
+= O(n^2/2)
+= O(n^2)
+21:12
