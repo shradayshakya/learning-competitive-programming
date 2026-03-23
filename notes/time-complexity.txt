@@ -25,3 +25,7 @@ Calculation
 = O(n^2/2)
 = O(n^2)
 21:12
+
+Example:
+* Sum of N over all Test cases is < 10 ^ 7
+	O(10 ^ 7)
