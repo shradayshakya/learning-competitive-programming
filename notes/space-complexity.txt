@@ -1,0 +1,6 @@
+Space Complexity
+* In worst case space taken by the operation
+	* a variable => O(1)
+	* an array => O(n)
+	* 2 dimentional array => O(n ^ 2)
+	O(1) + O(n) + O(n ^ 2) = O(n ^ 2)
